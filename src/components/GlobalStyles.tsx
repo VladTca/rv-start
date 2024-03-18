@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import { myTheme } from "./Theme.styled";
 
 export const GlobalStyles = createGlobalStyle`
+    
 *,
 *:before,
 *::after{
@@ -12,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 body{
     display: flex;
-    // background-color: ${myTheme.colors.backWall};
+    background-color: ${myTheme.colors.backWall};
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -22,7 +23,13 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+}  
+.dune {
+    width: 280px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 10px 20px 10px;
 }
-
 
 `;

@@ -6,7 +6,7 @@ export const myTheme = {
       dark: "#1f1d1d",
       light: "#868181",
     },
-    backWall:'rgb(245, 245, 245)'
+    backWall:'rgb(235, 235, 235)'
   },
 
   media: {

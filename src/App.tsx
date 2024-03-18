@@ -23,15 +23,15 @@ export default App;
 const Card = () => {
     return (
         <div className="card">
-            <img className="dune" src="./assets/dune.png" alt="Dune" />
+            <img className="dune" src="dune.png" alt="Dune"/>
             <div className="card-content">
                 <h2>Headline</h2>
                 <p>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</p>
-                <div className="buttons">
-                    <button>See more</button>
-                    <button>Save</button>
-                </div>
+
             </div>
+            <button className="firstBtn">See more</button>
+            <button className="secondBtn">Save</button>
+
         </div>
     );
 }

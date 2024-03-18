@@ -1,62 +1,86 @@
 .dune{
-    position: relative;
+
     width: 280px;
     height: 170px;
-    left: 10px;
-    right: 10px;
-    top: 10px;
-    bottom: 170px;
+    object-fit: cover;
     border-radius: 10px;
+    margin: 10px 10px 20px 10px;
+
 }
 
 .card{
-    display: flex;
-
     width: 300px;
     height: 350px;
     border-radius: 15px;
 
-    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.1);
     background: rgb(255, 255, 255);
 
 }
 .card-content{
+    height: 79px;
 
+    margin-left: 20px;
+
+    margin-bottom: 19px;
 }
 
 h2{
-    /* Headline */
-    position: relative;
+
+
     width: 70px;
     height: 19px;
-    left: 20px;
-    right: 210px;
-    top: 200px;
-    bottom: 131px;
+
     color: rgb(0, 0, 0);
 
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0;
     text-align: left;
+    margin-bottom: 19px;
 }
 p{
-    /* Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen. */
-    position: relative;
+
+
     width: 260px;
     height: 40px;
-    left: 20px;
-    right: 20px;
-    top: 239px;
-    bottom: 71px;
+
     color: rgb(171, 179, 186);
 
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0;
     text-align: left;
+
+}
+.firstBtn{
+    width: 86px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border-radius: 5px;
+    background: rgb(78, 113, 254);
+    color: rgb(255, 255, 255);
+    font-family: Inter , sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.secondBtn{
+    width: 86px;
+    height: 30px;
+    color: rgb(78, 113, 254);
+    font-family: Inter , sans-serif; ;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
 }

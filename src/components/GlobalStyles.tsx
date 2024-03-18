@@ -23,13 +23,22 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-}  
+}
 .dune {
     width: 280px;
     height: 170px;
     object-fit: cover;
     border-radius: 10px;
     margin: 10px 10px 20px 10px;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
 }
 
 `;

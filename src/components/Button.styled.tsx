@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {myTheme} from "./Theme.styled";
 // import { MyAnimation } from "./styles/animations/Animations";
 
 export const StyledBtn = styled.button`
@@ -29,7 +30,7 @@ export const StyledBtn = styled.button`
       color: rgb(78, 113, 254);
   }
     &:last-child:hover {
-        background-color: magenta;
+        background-color:  ${myTheme.colors.primary};
     }
     
 `;

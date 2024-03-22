@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {StyledBtn} from "./components/Button.styled";
 import styled from "styled-components";
-import {GlobalStyles} from "./components/GlobalStyles";
+import s from "./components/card.module.css"
 
 
 
@@ -23,8 +23,8 @@ export default App;
 
 const Card = () => {
     return (
-        <div className="card">
-            <img className="dune" src="dune.png" alt="Dune"/>
+        <div className={s.card}>
+            <img className="dune" src="/dune.png" alt="Dune"/>
             <div className="card-content">
 
                 <Imgtitle title='Headline'/>

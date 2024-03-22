@@ -3,7 +3,7 @@ import {myTheme} from "./Theme.styled";
 // import { MyAnimation } from "./styles/animations/Animations";
 
 export const StyledBtn = styled.button`
-   
+   box-sizing: border-box;
     width: 86px;
     height: 30px;
     margin-left: 20px;
@@ -28,6 +28,7 @@ export const StyledBtn = styled.button`
    margin: 0;
       background-color:rgb(255, 255, 255) ;
       color: rgb(78, 113, 254);
+      border-width: 2px;
   }
     &:last-child:hover {
         background-color:  ${myTheme.colors.primary};

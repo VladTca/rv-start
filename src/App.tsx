@@ -3,9 +3,12 @@ import './App.css';
 import {StyledBtn} from "./components/Button.styled";
 import styled from "styled-components";
 import s from "./components/card.module.css"
+import dune from "./components/dune.png"
 
-
-
+const Dune = () => {
+    const MyPic = <img className="dune" src={dune} alt="Dune"/>
+    return MyPic;
+}
 
 
 function App() {
@@ -24,7 +27,10 @@ export default App;
 const Card = () => {
     return (
         <div className={s.card}>
-            <img className="dune" src="/dune.png" alt="Dune"/>
+
+<Dune/>
+
+            {/*<img className="dune" src="/src/components/dune.png" alt="Dune"/>*/}
             <div className="card-content">
 
                 <Imgtitle title='Headline'/>

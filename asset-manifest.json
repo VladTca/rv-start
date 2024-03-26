@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rv-start/static/css/main.002371b2.css",
+    "main.js": "/rv-start/static/js/main.3d5ac89b.js",
+    "static/js/453.e818a5a4.chunk.js": "/rv-start/static/js/453.e818a5a4.chunk.js",
+    "static/media/dune.png": "/rv-start/static/media/dune.9e8ccc3cffb6c77902c7.png",
+    "index.html": "/rv-start/index.html",
+    "main.002371b2.css.map": "/rv-start/static/css/main.002371b2.css.map",
+    "main.3d5ac89b.js.map": "/rv-start/static/js/main.3d5ac89b.js.map",
+    "453.e818a5a4.chunk.js.map": "/rv-start/static/js/453.e818a5a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.002371b2.css",
+    "static/js/main.3d5ac89b.js"
+  ]
+}

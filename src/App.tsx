@@ -1,15 +1,13 @@
-import React from 'react';
-import './App.css';
-import {Card} from "./components/Card";
+import React from "react";
+import "./App.css";
+import { Card } from "./components/Card";
 
 function App() {
-    return (
-        <div className="App">
-
-            <Card/>
-
-        </div>
-    );
+  return (
+    <div className="App">
+      <Card />
+    </div>
+  );
 }
 
 

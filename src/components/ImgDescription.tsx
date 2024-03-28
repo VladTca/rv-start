@@ -6,7 +6,8 @@ type ImgDescriptionPropsType = {
 
 export function ImgDescription(props: ImgDescriptionPropsType) {
     const ImgDescriptionStyle: React.CSSProperties = {
-        width: "260px",
+        maxWidth:"260px",
+        // width: "260px",
         height: "40px",
         color: "rgb(171, 179, 186)",
         fontFamily: "Inter, sans-serif",
